@@ -1,0 +1,244 @@
+body {
+	font: 12px Arial, Tahoma, Verdana, sans-serif;
+	background: lightblue;
+}
+
+/* DIV CONTENEDOR GENERAL */
+#wrapper {
+	width: 90%;
+	margin: auto;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 150px;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5EZCsO4rCVX7xx8pfLPMmMucYNC_RMN9nXQ&s");
+	background-size: 100% 250%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+    background-color: lightblue;
+    overflow: auto;
+}
+
+#content {
+    /*Si no asociamos anchura al content intenta coger el 100% y se coloca en una línea diferente a la del #sideRight*/
+	width: 80%;
+	float: left;
+	text-align: center;
+    background-color: hsl(215,100%,70%);
+    background-size: 100% 200%;
+    padding: 10px;
+}
+
+/* Content exclusivo de index
+-----------------------------------------------------------------------------*/
+#contentindex {
+    /*Si no asociamos anchura al content intenta coger el 100% y se coloca en una línea diferente a la del #sideRight*/
+	width: 1677px;
+	float: left;
+    background-color: hsl(215,100%,70%);
+    background-size: 100% 200%;
+    padding: 10px;
+}
+
+#sideRight {
+	float: left;
+	width: 318px;
+	background: red;
+	text-align: center;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+    float: left;
+	clear: left;
+	height: 110px;
+	background: black;
+	color: white;
+	width: 1687px;
+	padding-left: 10px;
+}
+
+/* Footer exclusivo de galeria y formulario
+-----------------------------------------------------------------------------*/
+#footergaleriaformulario {
+    float: left;
+	clear: left;
+	height: 110px;
+	background: black;
+	color: white;
+	width: 1699px;
+	padding-left: 10px;
+}
+
+table.tablatarifas {
+	font-family: Arial;
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid;
+}
+
+caption {
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+}
+
+th {
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid black;
+	color: white;
+	font-size: 25px;
+}
+
+.color1 {
+	background-color: green;
+	padding: 10px;
+	border: 1px solid black;
+	font-size: 25px;
+}
+
+.color2 {
+	background-color: hsl(253, 100%, 75%);
+	padding: 10px;
+	border: 1px solid black;
+	font-size: 18px;
+}
+
+.color3 {
+	background-color: #a6a9ff;
+	padding: 10px;
+	border: 1px solid black;
+	font-size: 18px;
+}
+
+.color4 {
+	background-color: rgb(32, 131, 198);
+	padding: 10px;
+	border: 1px solid black;
+	font-size: 18px;
+}
+
+fieldset {
+	text-align: justify;
+}
+
+[for] {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+legend {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.tiempotarifa {
+	font-size: 14px;
+}
+
+.titnoticias {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.texnoticias {
+	font-size: 15px;
+}
+
+.texnoticias div {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.conttitulo {
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+
+.textoextra {
+	font-size: 15px;
+}
+/* He necesitado tener un sideRight para cada uno, porque el apartado content se ajustaba de manera diferente en cada página */
+#sideRight .rightformulario {
+	padding: 70px 8px 70px 8px;
+}
+
+#sideRight .rightgaleria {
+	padding: 88px 10px 88px 10px;
+}
+
+#sideRight .righttarifas {
+	padding: 128px 8px 128px 8px;
+}
+
+#sideRight .rightinfo1 {
+	padding: 228px 8px 228px 8px;
+}
+
+#sideRight .rightinfo2 {
+	padding: 176px 8px 177px 8px;
+}
+
+#sideRight .rightinfo3 {
+	padding: 271px 8px 272px 8px;
+}
+/* Para que las listas tengan una imagen */
+ul.cetrarul {
+	padding-left: 600px;
+	font-size: 15px;
+	list-style: url("../images/Montana.png");
+}
+
+table {
+	font-family: Arial;
+	width: 100%;
+}
+
+td {
+	text-align: center;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+.eventotitulo {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.textoproximo {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#footer div {
+	font-size: 15px;
+}
+
+.ofertatitulo {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.textoindex {
+	text-align: center;
+	font-size: 15px;
+}
